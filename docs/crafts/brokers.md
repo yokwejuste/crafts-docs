@@ -149,6 +149,8 @@ def task_status(request, task_id):
 
 For a password or TLS, use `redis://:password@host:6379/0` or `rediss://:password@host:6380/0`.
 
+For caching, sessions, ACL users, TLS, rate limiting, locks, configuration and migrating from Redis, see the full [Valkey with Django](valkey.md) guide.
+
 !!! tip
     [`valkey-py`](https://github.com/valkey-io/valkey-py) and [`django-valkey`](https://github.com/django-commons/django-valkey) are Valkey-native clients, but they aren't required: the Redis clients work with Valkey.
 
